@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() 
+#include<conio.h>
+void main() 
 {
 	int n,k,i,a[10],flag=0;
 	scanf("%d %d",&n,&k);
@@ -19,5 +20,5 @@ int main()
 	       break;
 	   }
 	}
-	return 0;
+	getch();
 }
