@@ -1,12 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
-int n;
+int r;
 clrscr();
 printf("Enter the number:");
-scanf("%d",&n);
-printf("The character is:%c",n+96);
+scanf("%d",&r);
+printf("The character is:%c",r+96);
 getch();
-return 0;
 }
